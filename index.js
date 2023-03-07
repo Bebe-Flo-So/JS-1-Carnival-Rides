@@ -12,10 +12,14 @@ let waterIsOn = true
 //Ride 1 works when:
     // green wire is connected
 ride1PowerOn = false
+if (greenWireConnected) {
+    ride1PowerOn = true}
+
 
 //Ride 2 works when 
     //green and yellow wires are connected
 ride2PowerOn = false
+if {}
 
 //Ride 3 works when:
     // green and red wires are connected
