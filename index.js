@@ -19,13 +19,17 @@ if (greenWireConnected) {
 //Ride 2 works when 
     //green and yellow wires are connected
 ride2PowerOn = false
-if {}
+if (greenWireConnected && yellowWireConnected) {
+ride2PowerOn = true}
 
 //Ride 3 works when:
     // green and red wires are connected
     // water is on 
     // yellow wire is not connected
 ride3PowerOn = false
+if (greenWireConnected && redWireConnected && waterIsOn ) {
+    ride3PowerOn = true}
+
 
 //Ride 4 has power when:
     //ride wire is connected
